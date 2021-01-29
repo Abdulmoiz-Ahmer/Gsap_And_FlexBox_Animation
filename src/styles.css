@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  border: 2px solid slategray;
+  height: 500px;
+  display: flex;
+  /* flex-basis: 20px; */
+}
+
+.items {
+  height: 25%;
+  /* width: 33.33%; */
+  padding: 5px;
+  /* flex: 1 1 20px; */
+}
+
+p {
+  color: whitesmoke;
+}
+
+.item0 {
+  background-color: blueviolet;
+}
+.item1 {
+  background-color: chocolate;
+}
+.item2 {
+  background-color: cadetblue;
+}
+
+.btn {
+  background-color: whitesmoke;
+  border-radius: 50%;
+  border: none;
+}
